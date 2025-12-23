@@ -59,7 +59,9 @@ function fullGame() {
             console.log("player score: " + playerScore)
             console.log("computer score: " + computerScore)
         }
-        else if (playerChoice == "rock" && computerChoice == "scissors" || playerChoice == "paper" && computerChoice == "rock" || playerChoice == "scissors" && computerChoice == "paper") {
+        else if (playerChoice == "rock" && computerChoice == "scissors" ||
+            playerChoice == "paper" && computerChoice == "rock" ||
+            playerChoice == "scissors" && computerChoice == "paper") {
             playerScore++
             console.log("player score: " + playerScore)
             console.log("computer score: " + computerScore)
